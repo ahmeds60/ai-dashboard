@@ -1,6 +1,6 @@
 async function loadMisinformationAlerts() {
     try {
-        const response = await fetch("https://your-api-url.onrender.com/misinformation_alerts");
+        const response = await fetch("https://ai-dashboard-jyu7.onrender.com/misinformation_alerts");
         const data = await response.json();
 
         if (data.error) {
@@ -23,7 +23,7 @@ async function loadMisinformationAlerts() {
 
 async function loadSentimentChart() {
     try {
-        const response = await fetch("https://your-api-url.onrender.com/news_sentiment");
+        const response = await fetch("https://ai-dashboard-jyu7.onrender.com/news_sentiment");
         const data = await response.json();
 
         if (data.error) {
