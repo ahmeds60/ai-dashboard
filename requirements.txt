@@ -1,3 +1,8 @@
-git add requirements.txt
-git commit -m "Added missing requirements.txt"
-git push origin main
+flask
+gunicorn
+requests
+pandas
+matplotlib
+wordcloud
+vaderSentiment
+flask-cors
